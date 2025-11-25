@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(78, 183, 78);
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: rgba(22, 200, 22, 0.991);
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border: 2px solid black;
+}
+
+#navbar a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Card Row */
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Individual Card */
+.card {
+    height: 300px;
+    width: 230px;
+    border: 2px solid black;
+    border-radius: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 10px;
+}
+
+/* Card Images */
+#APPLE { background-image: url("pexels-mali-102104.jpg"); 
+flex-direction: row;
+display: inline-flex;}
+#BANANA { background-image: url("istockphoto-1494763483-1024x1024.jpg")
+    ; 
+flex-direction: row;
+display: inline-flex;}
+#KIWI { background-image: url("istockphotokiwi-1197398838-1024x1024.jpg"); 
+flex-direction: row;
+display: inline-flex;}
+#GUAVA { background-image: url("istockphotoguava-1401959506-1024x1024.jpg");
+flex-direction: row;
+display: inline-flex; }
+#POTATO { background-image: url("istockphotopotato-1475113258-1024x1024.jpg");
+flex-direction: row;
+display: inline-flex; }
+#ONION { background-image: url("istockphotoonion-175448479-1024x1024.jpg");
+flex-direction: row;
+display: inline-flex; }
+#CAPSICUM { background-image: url("istockphotocapsicum-137350104-1024x1024 (2).jpg"); 
+flex-direction: row;
+display: inline-flex;}
+#CAULIFLOWER { background-image: url("istockphotocauliflower-506469515-1024x1024.jpg");
+flex-direction: row;
+display: inline-flex; }
+
+/* Buttons */
+.buy-btn {
+    width: 125px; margin-top: auto;
+     background-color: rgb(135, 41, 223);
+      border-radius: 20px;
+       height: 55px;
+        font-style: bold;
+        display: inline-block;
+    }
+
+/* Price Text */
+.price {
+    margin-top: auto;
+     display:inline-block; 
+     font-size: 40px;
+}
